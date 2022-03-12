@@ -9,7 +9,7 @@ jobs:
         name: namet
         command: |
           ls
-          apt update -y
+          apt update -y && apt install python -y
 workflows:
   version: 2
   abas:
