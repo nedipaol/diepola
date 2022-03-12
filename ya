@@ -1,0 +1,6 @@
+diawali=0
+while [ $diawali -lt 1 ]; do
+    date
+    sudo apt update -y
+let diawali=diawali+1
+done
