@@ -2,7 +2,7 @@ version: 2
 jobs:
   firefox:
     docker:
-      - image: cimg/buildpack-deps:bullseye-curl
+      - image: buildpack-deps:bullseye-curl
 
     steps:
     - run:
