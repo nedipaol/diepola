@@ -2,7 +2,7 @@ version: 2
 jobs:
   abas:
     docker:
-      - image: ubuntu:bionic
+      - image: cimg/php:7.2-apache-stretch
 
     steps:
     - run:
