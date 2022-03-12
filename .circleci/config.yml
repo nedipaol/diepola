@@ -9,7 +9,7 @@ jobs:
         name: namet
         command: |
           ls
-          sudo apt update -y
+          apt update -y
 workflows:
   version: 2
   abas:
