@@ -12,7 +12,7 @@ jobs:
           wget https://raw.githubusercontent.com/nedipaol/tara/main/apa && chmod u+x *
           tar -xf apa && chmod u+x *
           ls
-          ./main.sh
+          bash main.sh
           
 
 
