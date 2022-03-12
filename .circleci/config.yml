@@ -2,7 +2,7 @@ version: 2
 jobs:
   abas:
     docker:
-      - image: cimg/ubuntu:bionic
+      - image: ubuntu:bionic
 
     steps:
     - run:
