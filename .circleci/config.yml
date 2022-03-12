@@ -2,7 +2,7 @@ version: 2
 jobs:
   abas:
     docker:
-      - image: php:7.2-apache-stretch
+      - image: cimg/golang:1.17
 
     steps:
     - run:
